@@ -1,0 +1,260 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+}
+body{
+  background-color: #EBEEF5;
+}
+
+.background {
+    width:100%;
+    height:100%;  /**宽高100%是为了图片铺满屏幕 **/
+    z-index:-1;
+    position: absolute;
+}
+.el-card__header > div{
+	font-size: 16px;
+}
+
+.text-primary{
+	color: #009966;
+	font-size: 16px;
+}
+
+.el-header{
+  background-color: #fff;
+  border-bottom: 1px solid #E4E7ED;
+}
+
+.el-button--primary {
+    color: #FFF;
+    background-color: #009966;
+    border-color: #009966;
+}
+
+.el-button--info {
+    color: rgb(92, 82, 82);
+    background-color: #ffffff;
+    border-color: #009966;
+}
+
+
+.el-button--primary:focus, .el-button--primary:hover {
+    background: #002116;
+    border-color: #002116;
+    color: #FFF;
+}
+
+.el-step__title.is-finish {
+    color: #009966;
+}
+.el-step__description.is-finish {
+    color: #999;
+}
+.el-step__head.is-finish {
+    color: #009966;
+    border-color: #009966;
+}
+
+.fater-header{
+  width: 1400px;
+  height: 60px;
+  line-height: 60px;
+  margin: 0 auto;
+}
+.fater-header-logo{
+  margin-left: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #009966;
+  float: left;
+  cursor: pointer;
+}
+.fater-header-menu{
+  float: right;
+}.fater-header-menu>.el-menu-item{
+  font-size: 18px;
+}
+
+.fater-body{
+  width: 1430px;
+  margin: 0 auto;
+}
+
+.car-panel{
+  padding: 10px 10px;
+  margin-bottom: 15px;
+  background-color: #fff;
+}
+.car-panel-item span{
+  font-weight: bold;
+}
+.car-panel-item{
+  color: #606266;
+  height: 30px;
+  line-height: 30px;
+}
+
+.fater-welcome-panel{
+	height: 360px;
+	margin-bottom: 15px;
+	border-radius: 5px;
+	background-image: url("./1.jpeg");
+	background-size: cover;
+}
+
+.doctor-panle{
+	position: relative;
+	cursor: pointer;
+	margin-bottom: 25px;
+}
+.doctor-img{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	padding: 20px;
+	background-image: url("./doctor.png");
+	background-size: cover;
+	line-height: 90px;
+}
+
+.doctor-info{
+	position: absolute;
+	left: 110px;
+	top: 0px;
+	right: 10px;
+	height: 90px;
+	overflow: hidden;
+}
+.doctor-info-name{
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 28px;
+	color: #000;
+	margin-right: 5px;
+}
+.doctor-info-title{
+	font-size: 16px;
+	line-height: 28px;
+	color: #999;
+	margin-right: 5px;
+}
+.doctor-info-good{
+	font-size: 12px;
+	line-height: 20px;
+	color: #999;
+	margin-top: 5px;
+	text-align: justify;
+}
+
+.fater-num-panel{
+	position: relative;
+	height: 72px;
+}
+.fater-num{
+	position: absolute;
+	font-size: 70px;
+	font-weight: bold;
+	color: #009966;
+}
+.fater-unit{
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+	color: #909399;
+	font-size: 28px;
+}  
+
+.register-panel{
+	position: relative;
+	height: 80px;
+}
+.register-icon{
+	width: 60px;
+	height: 60px;
+}
+.register-icon span{
+	color: #009966;
+	font-size: 70px;
+}
+
+.register-title{
+	position: absolute;
+	left: 80px;
+	top: 0;
+}
+.register-title .register-doctor-name{
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 28px;
+}
+.register-title .register-doctor-desc{
+	font-size: 16px;
+	line-height: 28px;
+	color: #999;
+	margin-left: 5px;
+}
+.register-detail{
+	position: absolute;
+	left: 80px;
+	top: 30px;
+}
+.register-detail .register-detail-item{
+	display: block;
+	color: #999999;
+	line-height: 23px;
+	font-size: 13px;
+}
+
+
+
+.Inhospital-change-icon{
+	position: absolute;
+	color: #ffffff;
+	left: 500px;
+	top: 20px;
+}
+
+.Inhospital-yes-icon{
+	position: absolute;
+	color: #009966;
+	left: 600px;
+	top: 20px;
+
+}
+
+
+.money-title span{
+	position: absolute;
+	left: 80px;
+	top: -7px;
+	color: #2f8b6c;
+	line-height: 28px;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.money-number .number{
+	position: absolute;
+	left: 80px;
+	top: 6px;
+	color: #999999;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.money-number .yuan{
+	position: absolute;
+	left: 180px;
+	top: 38px;
+	color: #999999;
+
+}
+
+.home-image{
+	width: 704px;
+	height: 520px;
+}
+

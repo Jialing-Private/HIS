@@ -1,0 +1,127 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-size: 14px;
+	font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+}
+
+.fater-header {
+	position: fixed;
+	left: 200px;
+	right: 0;
+	top: 0;
+	height: 60px;
+	line-height: 60px;
+	background-color: #fff;
+	cursor: pointer;
+	border-bottom: 1px solid #eee;
+}
+
+.fater-header-logo {
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+	height: 60px;
+	width: 200px;
+	text-align: center;
+	line-height: 60px;
+	border-bottom: 1px solid #758b36;
+}
+
+.fater-header-user {
+	position: absolute;
+	right: 35px;
+}
+
+.fater-left {
+	position: fixed;
+	top: 0px;
+	left: 0;
+	bottom: 0;
+	width: 200px !important;
+	background-color: #009966;
+}
+
+.fater-left .el-menu {
+	border-right: 1px solid #eee;
+}
+
+.fater-left .fa {
+	margin-right: 10px;
+}
+
+.fater-body {
+	position: absolute;
+	left: 200px;
+	right: 0;
+	top: 60px;
+	bottom: 0;
+	background-color: #F2F2F2;
+	padding: 10px 10px;
+}
+
+.fater-body-breadcrumb {
+	margin: -15px;
+	margin-bottom: 15px;
+	padding: 10px 15px;
+	height: 40px;
+	line-height: 40px;
+	cursor: pointer;
+	background-color: #fff;
+}
+
+.fater-body-show .el-card {
+	margin-bottom: 15px;
+}
+
+.fater-body-show .el-card__header {
+	padding: 10px 15px;
+}
+
+.fater-body-show .el-card__body {
+	padding: 10px 15px;
+}
+
+.fater-num-panel{
+	position: relative;
+	height: 77px;
+}
+.fater-num{
+	position: absolute;
+	font-size: 70px;
+	font-weight: bold;
+	color: #009966;
+}
+.fater-unit{
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+	color: #909399;
+	font-size: 28px;
+}
+
+.confirm {
+	color: #FF6666;
+	background-color: #fffaf7;
+}
+
+.dead {
+	color: #4e5a65;
+	background-color: #d8dbdd;
+}
+
+.heal {
+	background-color: #e9f7ec;
+	color: #178b50;
+}
+
+.el-button--primary {
+	background-color: #009966;
+	border-color: #009966;
+}
+
+.el-button--primary:focus,
+.el-button--primary:hover {
+	background-color: #009966;
+	border-color: #009966;
+}

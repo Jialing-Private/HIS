@@ -1,0 +1,420 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+}
+body{
+  background-color: #EBEEF5;
+}
+
+.el-card__header > div{
+	font-size: 16px;
+}
+
+.text-primary{
+	color: #009966;
+	font-size: 16px;
+}
+
+.el-header{
+  background-color: #fff;
+  border-bottom: 1px solid #E4E7ED;
+}
+
+.el-button--primary {
+    color: #FFF;
+    background-color: #009966;
+    border-color: #009966;
+}
+.el-button--primary:focus, .el-button--primary:hover {
+    background: #009966;
+    border-color: #009966;
+    color: #FFF;
+}
+
+.el-step__title.is-finish {
+    color: #009966;
+}
+.el-step__description.is-finish {
+    color: #999;
+}
+.el-step__head.is-finish {
+    color: #009966;
+    border-color: #009966;
+}
+
+.fater-header{
+  width: 1400px;
+  height: 60px;
+  line-height: 60px;
+  margin: 0 auto;
+}
+.fater-header-logo{
+  margin-left: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #009966;
+  float: left;
+  cursor: pointer;
+}
+.fater-header-menu{
+  float: right;
+}.fater-header-menu>.el-menu-item{
+  font-size: 18px;
+}
+
+.fater-body{
+  width: 1430px;
+  margin: 0 auto;
+}
+
+.car-panel{
+  padding: 10px 10px;
+  margin-bottom: 15px;
+  background-color: #fff;
+}
+.car-panel-item span{
+  font-weight: bold;
+}
+.car-panel-item{
+  color: #606266;
+  height: 30px;
+  line-height: 30px;
+}
+
+.fater-welcome-panel{
+	height: 500px;
+	margin-bottom: 15px;
+	border-radius: 5px;
+	background-image: url("./1.jpeg");
+	background-size: cover;
+}
+
+.fater-shop{
+	height: 280px;
+	background-image: url("./shop.jpg");
+	background-size: cover;
+}
+
+/* 医师列表格式 */
+.doctor-panle{
+	position: relative;
+	cursor: pointer;
+	margin-bottom: 25px;
+}
+.doctor-img{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	padding: 20px;
+	background-image: url("./doctor.png");
+	background-size: cover;
+	line-height: 90px;
+}
+
+.doctor-info{
+	position: absolute;
+	left: 110px;
+	top: 0px;
+	right: 10px;
+	height: 90px;
+	overflow: hidden;
+}
+.doctor-info-name{
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 28px;
+	color: #000;
+	margin-right: 5px;
+}
+.doctor-info-title{
+	font-size: 16px;
+	line-height: 28px;
+	color: #999;
+	margin-right: 5px;
+}
+.doctor-info-good{
+	font-size: 12px;
+	line-height: 20px;
+	color: #999;
+	margin-top: 5px;
+	text-align: justify;
+}
+
+
+/** 科室列表格式 */
+.dept-panle{
+	position: relative;
+	cursor: pointer;
+	height: 150px;
+	margin: 15px;
+	padding: 20px;
+	border: 3px solid #E4E7ED;
+}
+.dept-img{
+	width: 10px;
+	height: 10px;
+	border-radius: 10%;
+	padding: 20px;
+	background-image: url("./dept.png");
+	background-size: cover;
+	line-height: 90px;
+}
+.dept-info{
+	position: absolute;
+	left: 90px;
+	top: 20px;
+	right: 10px;
+	height: 90px;
+	overflow: hidden;
+}
+.dept-info-name{
+	font-size: 25px;
+	font-weight: bold;
+	line-height: 40px;
+	color: #000;
+	margin-right: 5px;
+}
+.dept-info-title{
+	font-size: 16px;
+	line-height: 28px;
+	color: #999;
+	margin-right: 5px;
+}
+.dept-info-intro-panle{
+	margin-bottom: 15px;
+	margin-top: 15px;
+	height: 80px;
+	overflow: hidden;
+}
+.dept-info-intro{
+	font-size: 12px;
+	line-height: 20px;
+	color: #999;
+	text-align: justify;
+}
+
+
+
+
+/* 预约记录格式 */
+.preLog-lables{
+	position: relative;
+	margin-bottom: 25px;
+}
+
+.preLog-lable{
+	font-size: 16px;
+	line-height: 30px;
+	color: #999;
+	float: center;
+}
+.preLog-queue{
+	font-size: 16px;
+	line-height: 30px;
+	color: #999;
+	float: center;
+	margin-left: 30px;
+}
+.preLog-panle{
+	position: relative;
+	border-style: solid;
+	border-width: 1px
+}
+.preLog-info{
+	font-size: 15px;
+	float: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.preLog-button{
+	float: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+
+
+.fater-num-panel{
+	position: relative;
+	height: 72px;
+}
+.fater-num{
+	position: absolute;
+	font-size: 70px;
+	font-weight: bold;
+	color: #009966;
+}
+.fater-unit{
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+	color: #909399;
+	font-size: 28px;
+}  
+
+.register-panel{
+	position: relative;
+	height: 80px;
+}
+.register-icon{
+	width: 60px;
+	height: 60px;
+}
+.register-icon span{
+	color: #009966;
+	font-size: 70px;
+}
+.register-title{
+	position: absolute;
+	left: 75px;
+	top: 0;
+}
+.register-title .register-doctor-name{
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 28px;
+}
+.register-title .register-doctor-desc{
+	font-size: 16px;
+	line-height: 28px;
+	color: #999;
+	margin-left: 5px;
+}
+.register-detail{
+	position: absolute;
+	left: 75px;
+	top: 30px;
+}
+.register-detail .register-detail-item{
+	display: block;
+	color: #999999;
+	line-height: 23px;
+	font-size: 13px;
+}
+
+
+.report-img{
+	width: 1000px;
+	height: 716px;
+	padding: 20px;
+	background-image: url("./test.jpg");
+	background-size: cover;
+}
+
+/*门诊诊断页面样式*/
+/*left*/
+.button-container{
+	margin-right: 20px;
+	margin-bottom: 20px;
+	background-color: #fff;
+  border-bottom: 1px solid #E4E7ED;
+}
+.queue-infos-button{
+	height: 70px;
+	width: 300px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	margin-left: 70px;
+}
+.patient-info-panel{
+	background-color: #fff;
+  border-bottom: 1px solid #E4E7ED;
+	margin-right: 20px;
+	margin-top: 20px;
+	padding-left: 90px;
+	padding-right: 90px;
+	padding-bottom: 30px;
+	height: 740px;
+}
+.patient-info-title{
+	font-size: 30px;
+	color: #606266;
+	line-height: 80px;
+	padding-top: 10px;
+	margin: 0 auto;
+	text-align: center;
+	border-bottom: 1px solid #E4E7ED;
+
+}
+.patient-img{
+	width: 250px;
+	height: 250px;
+	background-image: url("./senpai.jpg");
+	background-size: cover;
+	border-radius: 50px;
+	margin-bottom: 50px;
+	margin-top: 30px;
+
+}
+.patient-info-details{
+	font-size: 20px;
+	line-height: 40px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #606266;
+}
+.sent-hospital-button{
+	height: 70px;
+	width: 250px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	margin-left: 0px;
+}
+/*right*/
+.operating-area{
+	background-color: #fff;
+  border-bottom: 1px solid #E4E7ED;
+  padding: 30px;
+  padding-bottom: 70px;
+  min-height: 800px;
+}
+.steps-style{
+	width: 700px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+	padding-top: 10px;
+}
+.diagnosis-area{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.diagnosis-step-label{
+	font-size: 30px;
+	line-height: 60px;
+	border-bottom: 1px solid #E4E7ED;
+}
+.diagnosis-step-symptom{
+	padding-top: 20px;
+}
+.diagnosis-step-next{
+	margin-top: 20px;
+	float: right;
+	margin-left: 10px;
+}
+
+/*开处方*/
+
+.one-pres{
+	padding-top: 20px;
+}
+.diagnosis-pres-content{
+	width: 680px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #E4E7ED;
+}
+.one-pres-box{
+	padding-bottom: 20px;
+	border-bottom: 1px solid #E4E7ED;
+}
+.one-pres-item{
+	width: 300px;
+}
+.one-pres-input{
+	width: 150px;
+}
+.add-pres-button{
+	margin-top: 20px;
+}

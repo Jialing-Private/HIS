@@ -1,0 +1,550 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+
+.mybody{
+	position: relative;
+	width: 100%;
+	height: 3300px;
+	margin: 0 140px 0 140px;
+	background: #FFFFFF;
+}
+.fater-body{
+	height: auto;
+}
+
+
+/*head*/
+.el-header{
+	background-color: #4e60a0;
+	height: 40px;
+}
+
+
+.fater-header{
+	height: 40px;
+	line-height: 60px;
+	margin: 0 140px;
+	background-color: #4e60a0;
+}
+.fater-header-logo{
+margin-left: 15px;
+font-size: 18px;
+font-weight: bold;
+color: #c8dce2;
+float: left;
+cursor: pointer;
+}
+.fater-header-menu{
+background-color: #4e60a0;
+float: right;
+}.fater-header-menu>.el-menu-item{
+color: #c8dce2;
+font-size: 16px;
+font-weight: bold;
+}
+/*head*/
+
+
+
+.home_img{
+	/* Image */
+	position: absolute;
+	left: -0px;
+	top: 97px;
+	width: 660px;
+	height: 525px;
+}
+
+
+.welcome-box{
+	/* welcome */
+	position: absolute;
+	left: 730px;
+	top: 200px;
+	width: 400px;
+	height: 100px;
+
+	font-family:monospace;
+	font-size: 72px;
+	font-weight: bold;
+	line-height: 10px;
+	color: #333e63;
+}
+
+
+
+.system-name{
+	/* 医院信息系统 */
+	position: absolute;
+	left: 750px;
+	top: 340px;
+	width: 500px;
+	font-size: 32px;
+	font-weight: bold;
+	line-height: 10px;
+	color: #333e63;
+}
+
+.login-button-box{
+	position: absolute;
+	left: 755px;
+	top: 470px;
+	width: 500px;
+	font-size: 32px;
+	font-weight: bold;
+	line-height: 10px;
+	color: #333e63;
+}
+
+.wel-contact{
+	position: absolute;
+	left: 750px;
+	top: 380px;
+	width: 350px;
+	font-size: 10px;
+	color: #F5A9E4;
+}
+
+
+
+
+.el-button--primary {
+    color: #FFF;
+    background-color: #4e60a0;
+    border-color: #4e60a0;
+}
+
+.el-button--info {
+    color: rgb(92, 82, 82);
+    background-color: #ffffff;
+    border-color: #4e60a0;
+}
+
+
+/*个人中心页面*/
+
+.user-img{
+	position: absolute;
+	left: 85px;
+	top: 20px;
+	width: 380px;
+	height: 380px;
+}
+
+.user-info{
+	position: absolute;
+	right: -80px;
+	top: 10px;
+	width: 600px;
+}
+
+/*card*/
+.el-card__header > div{
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.el-icon-s-grid{
+	color: #4e60a0;
+}
+
+
+.regi-logs{
+	position: absolute;
+	left: 90px;
+	top: 420px;
+	width: 1025px;
+	height: 300px;
+}
+
+
+.register-panel{
+	position: relative;
+	height: 90px;
+	width: 350px;
+}
+.register-icon{
+	width: 60px;
+	height: 60px;
+}
+.register-icon span{
+	color: #4e60a0;
+	font-size: 70px;
+}
+
+.register-title{
+	position: absolute;
+	left: 80px;
+	top: 0;
+}
+.register-title .register-doctor-name{
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 28px;
+}
+.register-title .register-doctor-desc{
+	font-size: 16px;
+	line-height: 28px;
+	color: #999;
+	margin-left: 5px;
+}
+.register-detail{
+	position: absolute;
+	left: 80px;
+	top: 30px;
+}
+.register-detail .register-detail-item{
+	display: block;
+	color: #999999;
+	line-height: 23px;
+	font-size: 13px;
+}
+
+.Inhospital-change-icon{
+	position: absolute;
+	color: #ffffff;
+	left: 500px;
+	top: 20px;
+}
+
+.Inhospital-yes-icon{
+	position: absolute;
+	left: 600px;
+	top: 20px;
+
+}
+
+.Inhospital-pull{
+	position: absolute;
+	left: 700px;
+	top: 20px;
+}
+.his-pres-panel{
+	position: relative;
+	height: 90px;
+	width: 320px;
+}
+.report-img{
+	width: 1000px;
+	height: 716px;
+	padding: 20px;
+	background-image: url("./test.jpg");
+	background-size: cover;
+}
+
+/*住院页面*/
+.inhos-img{
+	position: absolute;
+	left: 100px;
+	top: 40px;
+	width: 340px;
+	height: 340px;
+}
+
+.inhos-user-info{
+	position: absolute;
+	right: -100px;
+	top: 10px;
+	width: 600px;
+}
+
+
+.inhos-steps{
+	position: absolute;
+	top: 390px;
+	right: -90px;
+	width: 300px;
+}
+
+
+.inhos-cards{
+	position: absolute;
+	top: 390px;
+	left: 35px;
+	width: 830px;
+}
+
+.money-title span{
+	position: absolute;
+	left: 80px;
+	top: -7px;
+	color: #4e60a0;
+	line-height: 28px;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.money-number .number{
+	position: absolute;
+	left: 80px;
+	top: 6px;
+	color: #999999;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.money-number .yuan{
+	position: absolute;
+	left: 210px;
+	top: 42px;
+	color: #999999;
+}
+
+.patient-info-cards{
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	width: 1150px;
+}
+
+.regi-service-today{
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	width: 1150px;
+}
+
+.regi-service-cards{
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	width: 1150px;
+}
+
+
+/*门诊诊断页面样式*/
+.diagnosis-body{
+	position: relative;
+	width: 100%;
+	height: 800px;
+	margin: 0 120px 0 120px;
+	background: #FFFFFF;
+}
+
+/*left*/
+.button-container{
+	margin-right: 20px;
+	margin-bottom: 20px;
+	background-color: #fff;
+    border-bottom: 1px solid #E4E7ED;
+}
+.queue-infos-button{
+	position: abosulte;
+	top: 80px;
+	right: 80px;
+	height: 70px;
+	margin-left: 30px;
+	width: 250px;
+}
+.sent-hospital-button{
+	position: abosulte;
+	right: 100px;
+	height: 70px;
+	width: 250px;
+	margin-left: 30px;
+}
+.patient-info-panel{
+	background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid #E4E7ED;
+	margin-right: 20px;
+	margin-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 30px;
+	height: 780px;
+}
+
+.patient-info-title{
+	font-size: 30px;
+	color: #606266;
+	line-height: 80px;
+	padding-top: 10px;
+	margin: 0 auto;
+	text-align: center;
+	border-bottom: 1px solid #E4E7ED;
+
+}
+.patient-img{
+	width: 250px;
+	height: 250px;
+	background-image: url("./patient.png");
+	background-size: cover;
+	border-radius: 50px;
+	margin-bottom: 50px;
+	margin-left: 30px;
+	margin-top: 30px;
+
+}
+.patient-info-details{
+	font-size: 20px;
+	line-height: 40px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+	text-align: center;
+	color: #606266;
+}
+
+/*right*/
+.operating-area{
+  background-color: #fff;
+  border-bottom: 1px solid #E4E7ED;
+  padding: 30px;
+  padding-bottom: 70px;
+  min-height: 800px;
+  width: 900px;
+}
+.steps-style{
+	width: 720px;
+	margin: 0 50px;
+	margin-bottom: 50px;
+	padding-top: 10px;
+}
+.diagnosis-area{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.diagnosis-step-label{
+	font-size: 30px;
+	line-height: 60px;
+	border-bottom: 1px solid #E4E7ED;
+}
+.diagnosis-step-symptom{
+	padding-top: 20px;
+}
+.diagnosis-step-next{
+	margin-top: 20px;
+	float: right;
+	margin-left: 10px;
+}
+
+.one-pres{
+	padding-top: 20px;
+}
+.diagnosis-pres-content{
+	width: 680px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #E4E7ED;
+}
+.one-pres-box{
+	width: 750px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #E4E7ED;
+}
+.one-pres-item{
+	width: 300px;
+}
+.one-pres-input{
+	width: 150px;
+}
+.add-pres-button{
+	margin-top: 20px;
+}
+
+/* 科室列表 */
+.dept-panle{
+	position: relative;
+	cursor: pointer;
+	height: 150px;
+	margin: 15px;
+	padding: 20px;
+	border: 3px solid #E4E7ED;
+}
+.dept-img{
+	width: 10px;
+	height: 10px;
+	border-radius: 10%;
+	padding: 20px;
+	background-image: url("./dept.png");
+	background-size: cover;
+	line-height: 90px;
+}
+.dept-info{
+	position: absolute;
+	left: 90px;
+	top: 20px;
+	right: 10px;
+	height: 90px;
+	overflow: hidden;
+}
+.dept-info-name{
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 40px;
+	color: #000;
+	margin-right: 5px;
+}
+.dept-info-did{
+	font-size: 16px;
+	line-height: 28px;
+	color: #999;
+	margin-right: 5px;
+}
+.dept-info-intro-panle{
+	margin-bottom: 15px;
+	margin-top: 15px;
+	height: 60px;
+	overflow: hidden;
+}
+.dept-info-intro{
+	font-size: 12px;
+	line-height: 20px;
+	color: #999;
+	text-align: justify;
+}
+
+/* 医师列表 */
+.doctor-panle{
+	position: relative;
+	cursor: pointer;
+	margin-bottom: 25px;
+}
+.doctor-img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	padding: 20px;
+	background-image: url("./doctor.png");
+	background-size: cover;
+	line-height: 90px;
+}
+
+.doctor-info{
+	position: absolute;
+	left: 110px;
+	top: 0px;
+	right: 10px;
+	height: 90px;
+	overflow: hidden;
+}
+.doctor-info-name{
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 28px;
+	color: #000;
+	margin-right: 5px;
+}
+.doctor-info-title{
+	font-size: 16px;
+	line-height: 28px;
+	color: #999;
+	margin-right: 5px;
+}
+.doctor-info-good{
+	font-size: 12px;
+	line-height: 20px;
+	color: #999;
+	margin-top: 5px;
+	text-align: justify;
+}
+
+.department-list{
+	margin: 0 10px;
+	width: 1170px;
+}
+
